@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_674788_devops.test_devops_course</api_name>
+        <caller_access/>
+        <client_callable>false</client_callable>
+        <description/>
+        <name>test_devops_course</name>
+        <script><![CDATA[var test_devops_course = Class.create();
+test_devops_course.prototype = {
+    initialize: function() {
+    },
+
+    type: 'test_devops_course'
+};]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-02-03 06:40:48</sys_created_on>
+        <sys_id>05fbd73f1bd50110d936a9f6624bcb2c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>test_devops_course</sys_name>
+        <sys_package display_value="DevOps" source="x_674788_devops">ee8b5bb31bd50110d936a9f6624bcb9a</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_scope display_value="DevOps">ee8b5bb31bd50110d936a9f6624bcb9a</sys_scope>
+        <sys_update_name>sys_script_include_05fbd73f1bd50110d936a9f6624bcb2c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-02-03 06:40:48</sys_updated_on>
+    </sys_script_include>
+</record_update>
